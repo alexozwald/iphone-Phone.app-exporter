@@ -36,6 +36,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Export voicemails and call history from an iPhone backup.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
+        color=True,
         epilog="""
 Examples:
   # Auto-detect backup, export to ./phone_export

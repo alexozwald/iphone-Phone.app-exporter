@@ -7,7 +7,7 @@ authors = [
     { name = "sawwavecircuits" }
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.14"
 dependencies = [
     "iphone-backup-decrypt>=0.9.0",
     "pycryptodome>=3.9.0",

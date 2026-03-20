@@ -27,6 +27,17 @@ This project seeks to save + archive `Phone.app` data and break the last carrier
 
 ## Installation
 
+Option 1: install as tool via `uv`...
+
+```bash
+# Install project binary via uv
+uv tool install git+https://github.com/alexozwald/iphone-Phone.app-exporter
+# Get started!
+export-phoneapp
+```
+
+Option 2: install via repo
+
 ```bash
 # Install uv (if not already installed)
 curl -LsSf https://astral.sh/uv/install.sh | sh
